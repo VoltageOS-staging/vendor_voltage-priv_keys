@@ -83,6 +83,8 @@ PRODUCT_CERTIFICATE_OVERRIDES += \
     ServiceUwbResources:com.android.uwb.resources.certificate.override \
     ServiceWifiResources:com.android.wifi.resources.certificate.override \
     WifiDialog:com.android.wifi.dialog.certificate.override
+    GmscompatLib:gmscompat_lib.certificate.override \
 
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/voltage-priv/keys/testkey
 PRODUCT_EXTRA_RECOVERY_KEYS :=
+PRODUCT_CERTIFICATE_GMSCOMPAT_LIB := vendor/voltage-priv/keys/gmscompat_lib
